@@ -11,13 +11,14 @@ html {
 .banner {
   position: relative;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .banner-content {
   position: absolute;
-  bottom: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   max-width: 45em;
   width: 100%;
   padding-left: 1.5em;
@@ -39,8 +40,10 @@ h2 {
   color: #fff;
   background-color: #333;
   text-decoration: none;
-  border: 4px solid #333;
+  border: 5px solid #333;
   padding: .4em .75em .3em;
+  border-radius: 8px;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
@@ -61,6 +64,7 @@ h2 {
 p {
   margin-top: 0;
   padding-top: .6rem;
+  font-size: 1.5rem;
 }
 
 body {
@@ -68,7 +72,7 @@ body {
 }
 
 .banner .img-flex {
-
+  display: flex;
 }
 
 .banner .img {
