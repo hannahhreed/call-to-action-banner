@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
 }
 
@@ -73,8 +73,4 @@ body {
 
 .banner .img-flex {
   display: flex;
-}
-
-.banner .img {
-
 }
