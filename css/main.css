@@ -38,6 +38,12 @@ h2 {
   padding: .4em .75em .3em;
 }
 
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+
 .btn-big {
 
 }
@@ -63,9 +69,13 @@ p {
 }
 
 body {
-  margin: 40px;
+  margin: 0;
 }
 
 .banner .img-flex {
+
+}
+
+.banner .img {
 
 }
