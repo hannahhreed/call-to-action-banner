@@ -9,6 +9,11 @@ html {
 }
 
 .banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.banner-content {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -41,11 +46,6 @@ h2 {
 .btn:hover {
   background-color: #000;
   border-color: #000;
-}
-
-header {
-  max-height: 500px;
-  position: relative;
 }
 
 .img-flex {
