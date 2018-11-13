@@ -27,6 +27,7 @@ h2 {
   display: inline;
   line-height: 1.4;
   font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .btn {
@@ -35,6 +36,10 @@ h2 {
   text-decoration: none;
   border: 4px solid #333;
   padding: .4em .75em .3em;
+}
+
+.btn-big {
+
 }
 
 header {
@@ -59,4 +64,8 @@ p {
 
 body {
   margin: 40px;
+}
+
+.banner .img-flex {
+
 }
