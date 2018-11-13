@@ -25,7 +25,8 @@ html {
   padding-right: 1.5em;
   text-align: left;
   display: flex;
-  align-content: space-between;
+  align-content: flex-start;
+  justify-content: space-between;
 }
 
 h2 {
@@ -73,11 +74,6 @@ p {
 
 body {
   margin: 0;
-}
-
-.box {
-  justify-content: center;
-  align-items: center;
 }
 
 .img-box {
