@@ -24,6 +24,7 @@ html {
   padding-left: 1.5em;
   padding-right: 1.5em;
   text-align: left;
+  display: flex;
 }
 
 h2 {
@@ -31,7 +32,7 @@ h2 {
   color: #000;
   text-align: left;
   display: inline;
-  line-height: 1.4;
+  line-height: 1.2;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -41,7 +42,7 @@ h2 {
   background-color: #333;
   text-decoration: none;
   border: 5px solid #333;
-  padding: .4em .75em .3em;
+  padding: .75rem;
   border-radius: 8px;
   font-size: 1.5rem;
   font-weight: bold;
@@ -74,10 +75,7 @@ body {
   margin: 0;
 }
 
-.banner .img-flex {
-  float: left;
-}
-
-.banner .img {
-  display: flex;
+.box {
+  justify-content: center;
+  align-items: center;
 }
